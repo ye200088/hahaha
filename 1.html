@@ -5,24 +5,56 @@
     <title>fast$futher travel</title>
     <style media="screen">
 
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+
+
+
     h1{
-      border-bottom: 2px
+      text-align: center;;
+      border-bottom:2px
       solid red;
       margin: 0px;
+      padding: 20px;
+        font-size: 50px;
     }
     ol{
       border-right: 2px
       solid red;
       width: 200px;
-      margin: 0;
+      margin: 0px;
       padding: 20px;
+
     }
+
+    #aaa{
+    display: grid;
+    grid-template-columns: 300px 3fr;
+    border: 1px; solid hotpink;
+}
+
+   @media (max-width: 600px) {
+  .navigation{border:none;}
+  .grid{display: block;}
+
+  h1{border-bottom: none;}
+
+}
       </style>
   </head>
   <body>
 
 
 <h1>hongkong&macao</h1>
+
+<div id="aaa">
+
+
 
 <ol>
   <li><a href="1.html">hongkong&macao</a></li>
@@ -31,56 +63,62 @@
 </ol>
 
 
-<img src="심포니오브라이트.png" alt="심포니오브라이트" width="300">
-<p>-심포니오브라이트</p>
-<img src="미드레벨에스컬레이터.png" alt="미드레벨에스컬레이xj" width="300">
-<p>-미드레벨에스컬레이터</p>
-<img src="성바울성당.png" alt="성바울성당" width="300">
-<p>-성바울성당</p>
-<img src="베네시안호텔.png" alt="베네시안호텔" width="300">
-<p>-베네시안호텔</p>
+<div id="bbb">
 
-<table style="30%">
-  <tr>
-    <th>name<th>
-      <th>money(1인기준)<th>
-      </tr>
-      <tr>
-        <td>비행기(왕복)</td>
-        <td>250,000</td>
-      </tr>
-      <tr>
-        <td>호텔(4박)</td>
-        <td>280,000</td>
-      </tr>
-      <tr>
-        <td>디즈니랜드</td>
-        <td>92,000</td>
-      </tr>
-      <tr>
-        <td>페리</td>
-        <td>47,000</td>
-      </tr>
-      <tr>
-        <td>유심</td>
-        <td>18,000</td>
-      </tr>
-      <tr>
-        <td>식비</td>
-        <td>150,000</td>
-      </tr>
-      <tr>
-        <td>교통비</td>
-        <td>50,000</td>
-      </tr>
-      <tr>
-      <td>쇼핑</td>
-      <td>300,000</td>
-    </tr>
+  <img src="심포니오브라이트.png" alt="심포니오브라이트" width="200">
+  <p>-심포니오브라이트</p>
+  <img src="미드레벨에스컬레이터.png" alt="미드레벨에스컬레이xj" width="200">
+  <p>-미드레벨에스컬레이터</p>
+  <img src="성바울성당.png" alt="성바울성당" width="200">
+  <p>-성바울성당</p>
+  <img src="베네시안호텔.png" alt="베네시안호텔" width="200">
+  <p>-베네시안호텔</p>
+
+  <table style="30%">
     <tr>
-      <td>총액</td>
-      <td>1,187,000</td>
-    </table>
+      <th>name<th>
+      <th>money(1인기준)<th>
+        </tr>
+        <tr>
+          <td>비행기(왕복)</td>
+          <td>250,000</td>
+        </tr>
+        <tr>
+          <td>호텔(4박)</td>
+          <td>280,000</td>
+        </tr>
+        <tr>
+          <td>디즈니랜드</td>
+          <td>92,000</td>
+        </tr>
+        <tr>
+          <td>페리</td>
+          <td>47,000</td>
+        </tr>
+        <tr>
+          <td>유심</td>
+          <td>18,000</td>
+        </tr>
+        <tr>
+          <td>식비</td>
+          <td>150,000</td>
+        </tr>
+        <tr>
+          <td>교통비</td>
+          <td>50,000</td>
+        </tr>
+        <tr>
+        <td>쇼핑</td>
+        <td>300,000</td>
+      </tr>
+      <tr>
+        <td>총액</td>
+        <td>1,187,000</td>
+      </table>
+</div>
+</div>
+
+
 
   </body>
 </html>
