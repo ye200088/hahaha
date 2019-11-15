@@ -8,25 +8,32 @@
     h1{
       text-align: center;;
       border-bottom:2px
-      solid red;
+      solid green;
       margin: 0px;
       padding: 20px;
         font-size: 50px;
     }
-    ol{
-      border-right: 2px
-      solid red;
-      width: 200px;
-      margin: 0px;
-      padding: 20px;
 
+
+    .grid{
+    display: grid;
+    grid-template-columns: 250px 1fr;}
+
+    .navigation{
+      border-right: 2px solid green;
     }
 
-  #aaa{
-  display: grid;
-  grid-template-columns: 300px 1fr;
+    .article{
+      padding-left: 30px;
+    }
 
-  border: 1px; solid hotpink;
+
+   @media (max-width: 600px) {
+  .navigation{border:none;}
+  .grid{display: block;}
+
+  h1{border-bottom: none;}
+
 }
 
     </style>
@@ -36,8 +43,8 @@
 
     <h1>DANANG</h1>
 
-    <div id="aaa">
-
+    <div class="grid">
+      <div class="navigation">
 
 
     <ol>
@@ -47,7 +54,9 @@
     </ol>
 
 
-<div id="bbb">
+  </div>
+
+  <div class="article">
   <h2>1.미케비치</h2>
   <p>미국 경제지 <포브스>가 꼽은 섹계 6대 해변 가운데 하나인 미케 비치, 수온이 높고 경사가 완만해 해수욕하기 좋은 해변이다. 투명해서 속이 훤히 들여다 보이는 바다는 아니지만 부드러운 백사장이 끝없이 이어지고  포근한 햇빛으로 일광욕을 마음껏 즐길 수 있으며 해양 스포츠에도 알맞은 바다다.</P>
     <img src="미케비치.png" alt="미케비치"
