@@ -2,10 +2,44 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>fast$future travel</title>
+    <title>I love travel</title>
     <style media="screen">
-    body {
-      background-color: yellowgreen;
+
+    body{
+      margin: 0;
+  background-color: lightpink;
+    }
+    a{
+      text-decoration: none;
+      color: hotpink;
+    }
+    h1{
+      text-align: center;
+      font-size: 50px;
+      border-bottom: solid 3px hotpink;
+      margin: 0;
+      padding: 20px;
+      text-shadow: 3px 2px red;
+    }
+    h2{
+      color: hotpink;
+    }
+    .grid{
+      display: grid;
+      grid-template-columns: 200px 1fr 1fr 1fr;
+    }
+    .navigation {
+      border-right: 3px hotpink solid;
+    }
+    .article {
+      border-left: 25px;
+
+    }
+    .secondart{
+      padding-top: 70px;
+    }
+    .thirdart{
+      padding-top: 70px;
     }
     table, th, td {
   border: 1px solid black;
@@ -14,71 +48,40 @@
 th, td {
   padding: 15px;
 }
-
-
-
-    h1{
-      text-align: center;;
-      border-bottom:2px
-      solid green;
-      margin: 0px;
-      padding: 20px;
-        font-size: 50px;
-    }
-
-
-    .grid{
-    display: grid;
-    grid-template-columns: 200px 1fr 1fr 1fr;}
-
-    .navigation{
-      border-right: 2px solid green;
-      padding-left: 10px;
-    }
-
-    .article{
-
-          padding-left: 150px;
-      }
-
-    .secondart{
-
-          padding-left: 150px;
-    }
-
-    .thirdart{
-        padding-left: 150px;
-    }
-
-
-   @media (max-width: 600px) {
-  .navigation{border:none;}
-  .grid{display: block;}
-
-  h1{border-bottom: none;}
-
+th {
+  text-align: center;
 }
-      </style>
+@media(max-width:700px) {
+  .grid {
+    display: block;
+  }
+
+  .navigation {
+    border-right: none;
+
+  }
+  .article {
+  border-top: 3px hotpink solid;
+  }
+
+
+    }
+    </style>
   </head>
   <body>
+    <h1><a href="index.html">fast&future travel</a></h1>
+    <div class="grid">
+      <div class="navigation">
 
+     <ol>
+      <li><a href="1.html">hongkong & macao</a></li>
+      <li><a href="2.html">boracay land</a></li>
+      <li><a href="3.html">shanghai</a></li>
+    </ol>
 
-<h1>fast$future travel</h1>
-
-<div class="grid">
-    <div class="navigation">
-
-
-
-  <ol>
-    <li><a href="1.html">hongkong&macao</a></li>
-    <li><a href="2.html">boracay land</a></li>
-    <li><a href="3.html">danang</a></li>
-  </ol>
   </div>
 
-  <div class="article">
-
+<div class="article">
     <h2>hongkong&macao</h2>
 
     <img src="심포니오브라이트.png" alt="심포니오브라이트" width="200">
@@ -100,10 +103,10 @@ th, td {
 
             <tr>
               <th>name</th>
-              <th>money(1인기준)</th>
+              <th>money</th>
             </tr>
             <tr>
-              <td>비행기(왕복)</td>
+              <td>비행기</td>
               <td>250,000</td>
             </tr>
             <tr>
@@ -140,8 +143,6 @@ th, td {
           </table>
     </div>
 </div>
-
-
 
   </body>
 </html>

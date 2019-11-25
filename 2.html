@@ -2,44 +2,57 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>fast$future travel</title>
+    <title>I love trvel</title>
     <style media="screen">
-    body {
-      background-color: yellowgreen;
+
+    body{
+      margin: 0;
+  background-color: lightpink;
+    }
+    a{
+      text-decoration: none;
+      color: hotpink;
     }
     h1{
-      text-align: center;;
-      border-bottom:2px
-      solid green;
-      margin: 0px;
+      text-align: center;
+      font-size: 50px;
+      border-bottom: solid 3px hotpink;
+      margin: 0;
       padding: 20px;
-        font-size: 50px;
+      text-shadow: 3px 2px red;
+      color: hotpink;
     }
-h2{
-  font-size: 25px;
-}
-
+    h2{
+      color: hotpink;
+    }
     .grid{
-    display: grid;
-    grid-template-columns: 200px 1fr ;}
-
-    .navigation{
-      border-right: 2px solid green;
+      display: grid;
+      grid-template-columns: 200px 1fr 1fr 1fr;
     }
-
-    .article{
+    .navigation {
+      border-right: 3px hotpink solid;
+    }
+    .article {
       padding-left: 30px;
-    }
-
-
-    @media (max-width: 600px) {
-    .navigation{border:none;}
-    .grid{display: block;}
-
-    h1{border-bottom: none;}
 
     }
 
+    @media(max-width:700px) {
+      .grid {
+        display: block;
+      }
+
+      .navigation {
+        border-right: none;
+
+      }
+      .article {
+      border-top: 3px hotpink solid;
+      }
+
+
+
+}
       </style>
 
   </head>
@@ -47,17 +60,15 @@ h2{
 
 
 
-    <h1>fast$future travel</h1>
-
+    <h1><a href="index.html">fast&future travel</a></h1>
     <div class="grid">
       <div class="navigation">
 
-    <ol>
+     <ol>
       <li><a href="1.html">hongkong&macao</a></li>
-      <li><a href="2.html">boracay land</a></li>
-      <li><a href="3.html">danang</a></li>
+      <li><a href="2.html">boracay</a></li>
+      <li><a href="3.html">shanmghai</a></li>
     </ol>
-
 
   </div>
 
